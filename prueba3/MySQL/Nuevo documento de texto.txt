@@ -1,0 +1,17 @@
+<?php
+$sql = "SELECT * FROM `belgrano`";
+$result=mysqli_query($conexion,$sql);
+while($mostrar=mysqli_fetch_array($result)){
+?>
+
+		<tr>
+			<td><?php echo $mostrar['ID'] ?></td>
+			<td><?php echo $mostrar['NombrePeliculas'] ?></td>
+			<td><?php echo $mostrar['Horario'] ?></td>
+			<td><?php echo $mostrar['CantidadEntradas'] ?></td>
+			<td><?php echo $mostrar['Precio'] ?></td>
+			<td><?php echo $mostrar['Promociones'] ?></td>
+		</tr>
+		<?php
+		}
+		?>

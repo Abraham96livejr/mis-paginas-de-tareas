@@ -1,0 +1,68 @@
+<html>
+<head>
+<meta charset="utf-8">
+<!--
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+   -->
+  <link rel="stylesheet" href="css/pop-inicio.css">
+   <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	 <link rel="stylesheet" href="css/bootstrap-grid.css">
+	  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	   <link rel="stylesheet" href="css/bootstrap-reboot.css">
+	    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+<style>
+.contenedorPrimario {
+    display: none;
+    position: fixed;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+.contenedorSecundario {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #888;
+    width: 80%;
+}
+.cerrar {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.cerrar:hover,
+.cerrar:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
+</head>
+<body class=body1>
+<img src="Imagenes\Mcdonaldslogo-urban-comunicacion-845x684.png" class=logotipo alt="logotipo" width="600" height="600">
+  <button class=botoncentral id="miBtn">Iniciar Sesion</button>
+    <div id="contenedor" class="contenedorPrimario">
+      <div class="contenedorSecundario">
+        <span class="cerrar" id="cerrar">&times;</span>
+          <p class=p>Iniciando Modo Administrador de McDonalds</p><img src="Imagenes\McDonaldslogoAdmin.png" class=logotipo alt="logotipo" width="60" height="60">
+		  <a class="btn-success" href="entrada.php">Inicio de Administrador Anonimo</a>
+        </div>
+      </div>
+    <script type="text/javascript">
+        var contenedor = document.getElementById('contenedor');
+        var miBtn = document.getElementById("miBtn");
+        var span = document.getElementById("cerrar");
+        miBtn.onclick = function() {
+            contenedor.style.display = "block";
+        }
+        span.onclick = function() {
+            contenedor.style.display = "none";
+        }
+    </script>
+  </body>
+</html>

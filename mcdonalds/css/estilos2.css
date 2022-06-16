@@ -1,0 +1,125 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #e6e6e6;
+}
+
+header nav{
+  background: #528fd5;
+  overflow: hidden;
+}
+
+header nav ul{
+  list-style: none;
+}
+
+header nav ul li{
+  float: left;
+}
+
+header nav ul li a{
+  padding: 20px 30px;
+  display: block;
+  color:white;
+  text-decoration: none;
+}
+
+
+.portada{
+  width:100%;
+  max-width: 1400px;
+  height: 650px;
+  background: url("../imagenes/portada.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+
+}
+
+.titulo{
+  font-size: 50px;
+  font-family:Segoe UI;
+  font-weight: 300;
+  color:#b1b1b1;
+  text-align: center;
+  padding-top: 100px;
+}
+
+button{
+  height: 60px;
+  width: 300px;
+  background: none;
+  border: 3px solid white;
+  text-align: center;
+  margin:35%;
+  margin-top: 60px;
+}
+
+
+aside{
+  width: 30%;
+  background: #fff;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-left:35px;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid #528fd5;
+}
+
+h3{
+  text-align: center;
+  font-size: 25px;
+  font-family: Segoe UI;
+  font-weight: 200;
+
+}
+
+h4{
+  text-align: center;
+  font-size: 40px;
+  font-family: Segoe UI;
+  font-weight: 200;
+}
+
+form{
+  width: 30%;
+  border: 1px solid #ccc;
+  margin: 20px;
+  padding: 20px;
+}
+
+label{
+  font-size: 12px;
+  font-family: sans-serif;
+  display: block;
+  width: 100%;
+}
+
+input, textarea{
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+
+textarea{
+  resize: vertical;
+  max-height: 300px;
+  min-height: 100px;
+  font-family: sans-serif;
+}
+
+input[type="submit"]{
+  margin-bottom: 0;
+  background: #1668c4;
+  color: #fff;
+  border: none;
+}
+*/

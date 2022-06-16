@@ -1,0 +1,74 @@
+--------------------------------
+CREATE TABLE Locales(
+Barrio varchar(150),
+Direction varchar(150),
+Jefe varchar(150),
+n° int(150),
+Id_L int(254) AUTO_INCREMENT,
+PRIMARY KEY(Id_L));
+--------------------------------
+CREATE TABLE Empleados (
+jefe varchar(150),
+DNI int(13),
+Personal_Limpieza varchar(150),
+Cocineros varchar(150),
+Cajeros varchar(150),
+PRIMARY KEY (Jefe));
+------------------------------
+CREATE TABLE Ingredientes( 
+Id_n° int(255) AUTO_INCREMENT, 
+Panes int(254), Carne int(254),
+CajaFeliz+jugete 
+CarnePollo int(254),
+nuggets int(254),
+papas int(254),
+sprite int(245),
+cocacola int(254),
+fanta int(254),
+pepsi int(254),
+cafe int(254),
+facturasdulces int(150),
+salsadetomate int(254),
+mostaza int(254),
+mayonesa int(254), 
+especialguacamole int(254),
+agua int(254), 
+salsaMulanh int(50),
+PRIMARY KEY(Id_n°));
+------------------------------------
+CREATE TABLE Reservas(
+Id_lugar int(254) AUTO_INCREMENT,
+direction varchar(150), 
+Mesa int(13),
+Party varchar(13),
+personas int(11),
+Pago_total double(150),
+PRIMARY KEY(Id_lugar));
+-------------------------------------
+CREATE TABLE Soporte(
+Id_S int(254) AUTO_INCREMENT,
+Nombre varchar(150),
+Correo varchar(150),
+Pais varchar(150),
+TLF int(15),
+PRIMARY KEY (Id_S));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+CREATE DATABASE Cinetarea;
+
+CREATE TABLE Belgrano( ID int (13), NombrePelicula varchar(150), Horario varchar (12), CantidadEntradas int(255), Precio int (13), Promociones int(11), PRIMARY KEY (ID))
+CREATE TABLE soporte( N° int(11) AUTO_INCREMENT, Correo varchar (255), TLF int(15), Lugar varchar(255), PRIMARY KEY (N°))
+CREATE TABLE reservado( N°R int(255) AUTO_INCREMENT, Personas int(11), Dueno varchar(150), Pelicula varchar(255), Horario int(11), dia varchar(15), PRIMARY KEY (N°R))
+
+INSERT INTO `soporte`(`Correo`, `TLF`, `Lugar`) VALUES ("mrproblema5625@gmail.com",11589745,"tu abuela")
